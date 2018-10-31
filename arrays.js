@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(array,element) {
 
 function destructivelyAddElementToBeginningOfArray(array,element) {
   unshift.Array(element);
-  return (array)
+  return (array);
 }
 
 function addElementToEndOfArray(array,element) {
@@ -14,6 +14,7 @@ function addElementToEndOfArray(array,element) {
 }
 
 function destructivelyAddElementToEndOfArray(array,element) {
-  pop.Array(element);
+  push.Array(element);
   return (array);
 }
+
