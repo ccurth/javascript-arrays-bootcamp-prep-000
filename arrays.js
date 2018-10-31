@@ -5,5 +5,6 @@ function addElementToBeginningOfArray(array,element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element) {
-  pop.Array()
+  unshift.Array(element);
+  return (array)
 }
