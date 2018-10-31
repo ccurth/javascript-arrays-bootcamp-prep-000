@@ -18,3 +18,7 @@ function destructivelyAddElementToEndOfArray(array,element) {
   return (array);
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(array,element) {
+  shift.Array(element);
+  return (array);
+}
