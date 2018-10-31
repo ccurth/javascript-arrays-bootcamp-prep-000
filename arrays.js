@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array,element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element) {
-  unshift.Array(element);
+  array.unshift(element);
   return (array);
 }
 
@@ -14,11 +14,11 @@ function addElementToEndOfArray(array,element) {
 }
 
 function destructivelyAddElementToEndOfArray(array,element) {
-  push.Array(element);
+  array.push(element);
   return (array);
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array,element) {
-  shift.Array(element);
+  array.shift(element);
   return (array);
 }
